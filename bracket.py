@@ -31,3 +31,4 @@ def validate_bracket(lines):
             players = [left]
         else:
             players = [left, right]
+                ##
