@@ -7,7 +7,7 @@ from rotation import NO_PLAN, build_plan, format_plan, read_count
 
 SCRIPT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rotation.py")
 
-
+##
 def run_program(lines):
     typed = "\n".join(lines) + "\n"
     result = subprocess.run([sys.executable, SCRIPT], input=typed,
